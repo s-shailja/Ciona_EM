@@ -1,4 +1,5 @@
-# Ciona_EM
+# Ciona_EM : Decrypting the annotations
+src: getSynapse.py
 We have two transforms: one for image and one for contour. Here, we take the example of Series1.7661 xml file.
 
 Step 1: Apply the inverse transform (contour) on the contour points
@@ -12,3 +13,4 @@ b = [-0.356472580116627,0.330871689624869, -0.284621855197495, 0, 0, 0]
 
 Step 3: Divide the above points by Image mag which is for this example,
 0.00284108
+
